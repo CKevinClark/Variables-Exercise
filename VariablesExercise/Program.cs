@@ -4,23 +4,23 @@
     {
         static void Main(string[] args)
         {
-            string name = "John";
-            int age = 31;
-            char middleInitial = 'D';
-            bool isOver18 = true;
-            double currentTemp = 77.9;
-            decimal currentPrice = 29.99m;
+            string frenchCapitol = "Paris";
+            int capitalFounding = 843;
+            char euroSymbol = '$';
+            bool isCoolplace = true;
+            double currentTemp = 63.9;
+            decimal currentLatitude = 48.86m;
 
-            //Initialize variables
+            //Initialize variables - Tried to make it more unique this time :) 
 
-            Console.WriteLine($"Name: {name}");
-            Console.WriteLine($"Age: {age}");
-            Console.WriteLine($"Middle Initial: {middleInitial}");
-            Console.WriteLine($"Over 18?: {isOver18}");
+            Console.WriteLine($"The capitol of France: {frenchCapitol}");
+            Console.WriteLine($"When the capitol of France was founded: {capitalFounding}");
+            Console.WriteLine($"Currency accepted in Paris: {euroSymbol}");
+            Console.WriteLine($"Paris is a cool place?: {isCoolplace}");
             Console.WriteLine($"Current Temperature: {currentTemp}");
-            Console.WriteLine($"Current Price: {currentPrice}");
+            Console.WriteLine($"What is the latitude of Paris: {currentLatitude}");
 
-            Console.WriteLine($"My name is {name} and I am {age}. I have been sometimes called {middleInitial} due to it being my intial. For the last 12 years I have been over 18, it's {isOver18}. My pits are currently {currentTemp} and my networth is {currentPrice}");
+            Console.WriteLine($"My name is {frenchCapitol} and I was founded in {capitalFounding}. I do not accept the {euroSymbol} as a currency. it is {isCoolplace}, I have often been reported as a good tourist destination.\n My temperature is currently {currentTemp} and latitude is {currentLatitude}");
 
         }
     }
